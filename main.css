@@ -1,0 +1,53 @@
+body 
+{background-color: #262626;
+font-family: "helvetica";
+color: grey;}
+
+.simpson {
+	display:block;position:relative;width:100%;border:none;
+background-image:url(home_image.gif);background-repeat:no-repeat;background-size:cover;
+height:400px;background-position:50%;}
+
+.navbar {color:blue;}
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+{
+	background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') 
+	repeat;
+	font-family:"Open Sans", Impact;}
+.area {text-align:center;
+  font-size:6em;
+ color:teal;
+  letter-spacing: 2px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur.75s ease-out infinite;
+  text-shadow:0px 0px 5px #333,
+      0px 0px 7px #333;
+}
+
+
+.btn {color:white;background-color:teal;border-color:#333;}
+
+$('.dropdown-toggle').dropdown()
+
+#dlabel{background-color:#fff;color:white;}
+
+h2
+{color:white;}
+
+
+.scrubsimg {
+	display:block;position:relative;width:100%;border:none;
+background-image:url(scrubs.jpg);background-repeat:no-repeat;background-size:cover;
+height:400px;background-position:50%;}
+
+.friendsimg {
+	display:block;position:relative;width:100%;border:none;
+background-image:url(friends.jpg);background-repeat:no-repeat;background-size:cover;
+height:400px;background-position:50%;}
+
+.wiltyimg {display:block;position:relative;width:100%;border:none;
+background-image:url(wilty.jpg);background-repeat:no-repeat;background-size:cover;
+height:400px;background-position:50%;}
